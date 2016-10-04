@@ -6,6 +6,11 @@ We'll mostly cover pattern matching and loops/recursion
 Start by installing this workshop's package:
 `mix archive.install workshop*.ez`
 
+Prerequisite
+------------
+- A recent version of [Elixir](http://elixir-lang.org/install.html)
+- Some time and energy :)
+
 
 What's next?
 ------------
