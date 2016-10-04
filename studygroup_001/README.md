@@ -1,4 +1,4 @@
-Elixir Workshop
+Assignments for first Amsterdam Elixir Studygroup
 ===================
 A workshop to get to know Elixir (and little bit of FP).
 We'll mostly cover pattern matching and loops/recursion
@@ -32,5 +32,7 @@ autocompletion so `Enum.<TAB>` will list all public Enum functions.
 
 `c "<file.ex>"` will compile and (re)load that module into IEx session
 so you can try it out. Just typing a function definition won't suffice, since there's no global Module to which the function will be added.
+
+`i <variable>` will tell you what type a variable is and which Module has most fitting functions to transform it
 
 Function definition is Elixir is `def function_name do ..etc`. As a Rubyist you're probably forget `do` after the functions arguments resulting in a syntax error like `unexpected token: end`.
