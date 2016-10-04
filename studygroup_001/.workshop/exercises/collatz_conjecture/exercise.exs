@@ -1,7 +1,7 @@
 defmodule Workshop.Exercise.Conjecture do
   use Workshop.Exercise
 
-  @title "Recursion"
+  @title "Conjecture Collatz"
   @weight 3000
 
   # Write an exercise description that make the user capable of solving the
