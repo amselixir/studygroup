@@ -7,7 +7,7 @@ defmodule Workshop.Exercise.ConjectureCheck do
   end
 
   verify "verify first step" do
-    (Conjecture.collatz(2) == 1 && :ok) || { :error, "Conjecture.collatz(1) should return 1, got #{Conjecture.collatz(2)}"}
+    (Conjecture.collatz(2) == 1 && :ok) || { :error, "Conjecture.collatz(2) should return 1, got #{Conjecture.collatz(2)}"}
   end
 
   verify "21 in 7 steps" do
