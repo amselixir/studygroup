@@ -4,7 +4,7 @@ defmodule Workshop.Meta do
   @title "Elixir Workshop"
   @version "0.0.1"
   @generator_version "0.5.1"
-  @home "https://github.com/amselixir/studygroup_001"
+  @home "https://github.com/amselixir/studygroup"
   @shortdesc "A starter workshop to learn some Elixir"
 
   @description """
