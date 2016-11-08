@@ -4,6 +4,6 @@ defmodule Arranger do
   @spec arrange(list(:vegetable_slice | :meat_dice)) :: list(:vegetable_slice | :meat_dice)
   def arrange(foods) do
     {meats, veggies} = Enum.partition(foods, &(&1 == :meat_dice))
-    Enum.zip veggies, meats
+    Enum.zip(veggies, meats) |> Enum.flat_map( fn({veggie, meat}) -> [veggie, meat] end)
   end
 end
