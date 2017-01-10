@@ -33,6 +33,7 @@ defmodule Workshop.Exercise.GenWorker do
   """
 
   @hint [
-    "use `GenServer.start(MyModule.Server, %{}, [debug: [:trace]])` for debug tracing"
+    "use `GenServer.start(MyModule.Server, %{}, [debug: [:trace]])` for debug tracing",
+    "if you really want to make yourself easy, upgrade to Elixir 1.4 and use Task.async_stream/5"
   ]
 end

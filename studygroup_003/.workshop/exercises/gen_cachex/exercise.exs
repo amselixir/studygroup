@@ -24,6 +24,8 @@ defmodule Workshop.Exercise.GenCachex do
   """
 
   @hint [
-    "try to reuse as much as possible from previous assignment"
+    "try to reuse as much as possible from previous assignment",
+    "use `GenServer.start(MyModule.Server, %{}, [debug: [:trace]])` for debug tracing",
+    "write out client side first, implement server side/callbacks last"
   ]
 end

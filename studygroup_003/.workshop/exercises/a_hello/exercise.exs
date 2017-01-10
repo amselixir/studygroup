@@ -23,9 +23,8 @@ defmodule Workshop.Exercise.Adele do
   """
 
   @task """
-  Implement arrange function which
-  given a list of (unarranged) :vegetable_slices and :meat_dices arranges them alternately
-  starting with a :vegetable_slice
+  Write a function which will spawn a process. This child process sends a tuple
+  containing string "Hello from" followed by it's own PID. (ex.: `{"Hello from", #PID<0.80.0>} `)
   """
 
   @hint [

@@ -4,8 +4,6 @@ defmodule Workshop.Exercise.ParallelMap do
   @title "Parallel Map"
   @weight 4000
 
-  # Write an exercise description that make the user capable of solving the
-  # given `@task`.
   @description """
   Write a function, which takes a collection and a function, and applies
   that function on each element of the collection by spawning a process for
@@ -26,10 +24,10 @@ defmodule Workshop.Exercise.ParallelMap do
   """
 
   @task """
-  @todo, write the task for this exercise
+  Write 2 parallel map implementation (one using pure processes, second using Task.async)
   """
 
   @hint [
-    "@todo, write a couple of hints for the solving this exercise"
+    "if pure functions is too hard, try the Task version first"
   ]
 end

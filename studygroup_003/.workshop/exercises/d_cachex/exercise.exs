@@ -24,10 +24,11 @@ defmodule Workshop.Exercise.Cachex do
   """
 
   @task """
-  @todo, write the task for this exercise
+  Implement your own cache | key/value store
   """
 
   @hint [
-    "@todo, write a couple of hints for the solving this exercise"
+    "write client side first, receive block last",
+    "use Process.info(pid) or :observer.start to take a look at a process' mailbox"
   ]
 end

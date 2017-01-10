@@ -28,8 +28,6 @@ defmodule Workshop.Exercise.Echo do
   """
 
   @hint [
-    "read the docs for Stream.map/2",
-    "play with Stream.map, see what it returns",
-    ""
+    "take a look at getting started -> processes part from elixir-lang.org"
   ]
 end
