@@ -47,5 +47,6 @@ defmodule Workshop.Meta do
   # user and; and ask for feedback.
   @debriefing """
   You have completed the last exercise. Congratulations!
+  Perhaps take a stab at writing your own game (trading card game, like Heartsone, Magic the Gathering etc)?
   """
 end
