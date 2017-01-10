@@ -4,10 +4,9 @@ defmodule Workshop.Exercise.LessIsMore do
   @title "Less Is More"
   @weight 3000
 
-  # Write an exercise description that make the user capable of solving the
-  # given `@task`.
   @description """
-  @todo, write this exercise
+  Given the sliced and diced meats and vegetables, combine them into high cuisine.
+  :vegetable_slice + :meat_dice = :high_cuisine
 
   # What's next?
   Get the task for this exercise by executing `mix workshop.task`. When you are
@@ -22,10 +21,10 @@ defmodule Workshop.Exercise.LessIsMore do
   """
 
   @task """
-  @todo, write the task for this exercise
+  Create a high cuisine by combining :vegetable_slice with :meat_dice
   """
 
   @hint [
-    "@todo, write a couple of hints for the solving this exercise"
+    "make sure any unused ingredients are saved"
   ]
 end
