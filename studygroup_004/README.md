@@ -1,6 +1,7 @@
-Assignments for third Amsterdam Elixir Studygroup
+Assignments for fourth Amsterdam Elixir Studygroup
 ===================
-A workshop to get to know Elixir process, message passing and little bit of GenServer & concurrency.
+A workshop to get to know Elixir by doing a simple ML exercise: sentiment
+analysis of tweets using naive bayes algorithm (just unigrams + prior prob)
 
 Start by installing this workshop's package:
 `mix archive.install workshop*.ez`
