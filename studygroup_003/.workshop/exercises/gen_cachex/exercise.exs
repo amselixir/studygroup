@@ -5,7 +5,7 @@ defmodule Workshop.Exercise.GenCachex do
   @weight 6000
 
   @description """
-  Write a key/value store, but this using GenServer.
+  Write a key/value store, but this using GenServer. Implement put, get, delete and wipe.
 
   # What's next?
   Get the task for this exercise by executing `mix workshop.task`. When you are
