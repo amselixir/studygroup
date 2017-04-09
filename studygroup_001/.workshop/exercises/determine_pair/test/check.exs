@@ -4,31 +4,31 @@ defmodule Workshop.Exercise.DeterminePairCheck do
   import Pair
 
   test "one pair" do
-    assert(determine_pair(one_pair))
+    assert(determine_pair(one_pair()))
   end
 
   test "straight has no pair" do
-    refute(determine_pair(straight))
+    refute(determine_pair(straight()))
   end
 
   test "two pairs has a pair" do
-    assert(determine_pair(two_pairs))
+    assert(determine_pair(two_pairs()))
   end
 
   test "full house has no pair" do
-    assert(determine_pair(full_house))
+    assert(determine_pair(full_house()))
   end
 
   test "something has no pair" do
-    refute(determine_pair(something))
+    refute(determine_pair(something()))
   end
 
   test "four of kind has a pair" do
-    assert(determine_pair(four_of_kind))
+    assert(determine_pair(four_of_kind()))
   end
 
   test "three of kind has a pair" do
-    assert(determine_pair(three_of_kind))
+    assert(determine_pair(three_of_kind()))
   end
 
   defp four_of_kind do

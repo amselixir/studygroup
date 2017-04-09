@@ -11,8 +11,8 @@ defmodule Echo do
   def loop do
     receive do
       {msg, from} ->
-        send from, {msg, self}
-        loop
+        send from, {msg, self()}
+        loop()
     after 5000 ->
       IO.puts "no message received after 5s"
     end

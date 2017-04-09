@@ -4,7 +4,7 @@ defmodule Cachex do
   end
 
   def get(pid, key) do
-    send pid, {:get, key, self}
+    send pid, {:get, key, self()}
     receive do
       value ->
         value
@@ -39,7 +39,7 @@ defmodule Cachex do
       {:delete, key} ->
         loop(Map.delete(values, key))
       :wipe ->
-        loop
+        loop()
       :stop ->
         :ok
       something ->

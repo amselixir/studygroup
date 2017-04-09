@@ -6,7 +6,7 @@ defmodule Deck do
   @spec new() :: list
   def new do
     :rand.seed(:exs1024, :os.timestamp) # set seed for randomization
-    for colour <- colours, number <- numbers do
+    for colour <- colours(), number <- numbers() do
       [ colour, number ]
     end
     |> Enum.shuffle

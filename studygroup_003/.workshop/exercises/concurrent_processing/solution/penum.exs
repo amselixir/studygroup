@@ -1,9 +1,9 @@
 defmodule Penum do
   def pmap(collection, fun) do
-    parent = self
+    parent = self()
 
     collection
-    |> Enum.map(&(spawn fn -> (send parent, {self, fun.(&1)}) end))
+    |> Enum.map(&(spawn fn -> (send parent, {self(), fun.(&1)}) end))
     |> Enum.map(&wait_for_result/1)
   end
 
